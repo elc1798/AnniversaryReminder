@@ -2,6 +2,9 @@ import datetime
 from datetime import datetime
 import time
 import os
+import Tkinter
+import tkMessageBox
+
 
 def findNumDays(month , year):
     if month <= 7:
@@ -71,9 +74,13 @@ def report():
 		else:
 			MESSAGE = "Today is your monthy!" + "\nAnniversary: " + str(monthGoal) + "/" + str(dayGoal)
 	#print MESSAGE
-	f = open(HOMEDIR + "/anniversary/output.txt" , 'w')
-	f.write(MESSAGE)
-	f.close()
+#	f = open(HOMEDIR + "/anniversary/output.txt" , 'w')
+#	f.write(MESSAGE)
+#	f.close()
+#	top = Tkinter.Tk()
+	tkMessageBox.showinfo("AnniversaryReminder" , MESSAGE)
+#	top.mainloop()
+
 
 def getStateVar():
 	PATH = HOMEDIR + '/anniversary'
