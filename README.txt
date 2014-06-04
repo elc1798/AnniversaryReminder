@@ -29,3 +29,6 @@ alias anniversaryReminder="sh ~/anniversary/run.sh"
 
 If you do this, you can run the program simply by typing in "anniversaryReminder" in Terminal.
 Note that 'anniversaryReminder' can be changed to any command you wish, such as anniRem or anniCheck
+
+IF you are not using this in a *nix system, then you need a Python Interpreter, such as IDLE to run the code.
+To run the code in IDLE, simply open "src/main.py" in IDLE and hit F5 to run.
