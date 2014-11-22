@@ -45,6 +45,7 @@ def deltaCheck(day , month , year):
 #    if hoursLeft > 24:
 #        daysLeft = daysLeft - 1
 #        hours = hour - 24
+    daysLeft += 1
     daysLeft = str(daysLeft)
 #    daysLeft = daysLeft + " " + str(hoursLeft) + ":" + str(minutesLeft)
     return daysLeft
